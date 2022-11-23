@@ -1,0 +1,63 @@
+body{
+	background-color:#6C4AB6;
+	background-image:url("images/bg-desktop.svg");
+	color: #fff;
+	margin: 3%;
+}
+
+h1{
+	width: 400px;
+}
+
+img{
+	display: block;
+}
+
+p{
+	width: 500px;
+}
+
+.body-text{
+	padding: 100px 0 0 20px;
+}
+
+.desktop-background-img{
+	text-align: center;
+}
+
+.footer-icons{
+	float: right;
+	margin-left: 15px;
+}
+
+.illustr-mckup-img{
+	margin-top: 100px;
+}
+
+.reg-button{
+	border-radius: 25px;
+	width: 150px;
+}
+
+@media (max-width:1400px){
+	body{
+		text-align: center;
+	}
+	.body-text{
+		padding-top: 100px 0 0 0;
+		width: 50%;
+	}
+	h1{
+		width: 100%;
+	}
+	.footer-icons{
+		float: none;
+		padding: 30px 0;
+	}
+	.illustr-mckup-img{
+		display: inline-block;
+	}
+	p{
+		width: 100%;
+	}
+}
